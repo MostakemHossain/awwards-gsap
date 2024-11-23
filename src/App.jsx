@@ -2,7 +2,7 @@
 
 const App = () => {
   return (
-    <div className="text-red-300">App</div>
+    <div className="font-circular-web">App</div>
   )
 }
 
