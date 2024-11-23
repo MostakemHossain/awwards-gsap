@@ -1,8 +1,12 @@
+import Hero from "./components/Hero"
 
 
 const App = () => {
   return (
-    <div className="font-circular-web">App</div>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Hero />
+      <section className="bg-blue-500 z-0 min-h-screen"></section>
+    </main>
   )
 }
 
