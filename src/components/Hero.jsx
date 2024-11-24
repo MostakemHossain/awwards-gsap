@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 
 import Button from "./Button";
-import VideoPreview from "./VideoPreview";
+import VideoPreview from "./VideoPreview.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
